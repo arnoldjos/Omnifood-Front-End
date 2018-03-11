@@ -1,0 +1,23 @@
+
+/* BIG TABLET to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px){
+	.hero-text-box {
+		position: absolute;
+		padding: 0 2%; 
+	}	
+}
+
+/* SMALL TABLET TO BIG TABLETS: FROM 768PX to 1023px */
+@media only screen and (max-width: 1023px){
+	
+}
+
+/* SMALL PHONES TO SMALL TABLETS: FROM 481px to 767px */
+@media only screen and (max-width: 767px){
+	
+}
+
+/* SMALL PHONES FROM 0 to 480px */
+@media only screen and (max-width: 480px){
+	
+}

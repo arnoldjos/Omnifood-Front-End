@@ -195,7 +195,7 @@ input[type=submit]:active{
 
 header {
 	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/hero.jpg);
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/hero-min.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -428,7 +428,7 @@ header {
 
 .section-testimonials {
 	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/back-customers.jpg);
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/back-customers.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/back-customers-min.jpg);
 	background-size: cover;
 	color: #fff;
 	background-attachment: fixed;
@@ -526,7 +526,7 @@ cite img {
 /*----------------------------*/
 
 .contact-form {
-	width: 60%;
+	width: 90%;
 	margin: 0 auto;
 }
 
@@ -549,6 +549,29 @@ input[type=checkbox] {
 }
 
 *:focus {outline: none;}
+
+.map-box {
+	width: 100%;
+	height: 600px;
+	position: relative;
+}
+
+.map {
+	width: 100%;
+	height: 600px;
+}
+
+.form-box {
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: rgba(255, 255, 255, 0.8);
+	z-index: 9999;
+	padding-top: 40px;
+}
+
 
 /*----------------------------*/
 /* --------- FOOTER --------- */

@@ -100,4 +100,22 @@ $(document).ready(function() {
 		}
 	});
 	
+	
+	/* Google Map */
+	var map = new GMaps({
+	  div: '. map',
+	  lat: 9.6637038,
+	  lng: 123.95,
+	  zoom: 11
+	});
+	
+	map.addMarker({
+	  lat: 9.6637038,
+	  lng: 123.87,
+	  title: 'Tagbilaran',
+	  click: function(e) {
+		alert('You clicked in this marker');
+	  }
+	});
+	
 });
